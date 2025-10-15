@@ -1,11 +1,16 @@
-# html
+# 42 London Discovery Week: HTML &amp; CSS Showcase
 
-42 London Discovery Week :HTML &amp; CSS Showcase
+#### Brief Summary
+### During my coding week at 42’s Discovery Piscine, I learned the essentials of bash and building web pages with HTML and CSS. Our final assignment (“Rush”) challenged me to set up a simple multi-page site: a responsive index page linking to two separate resume (“CV”) pages. I practiced HTML structure, semantic elements, creating navigation, using Bootstrap for responsive designs, and styling with custom CSS.
 
-Brief Summary
-During my coding week at 42’s Discovery Piscine, I learned the essentials of bash and building web pages with HTML and CSS. Our final assignment (“Rush”) challenged me to set up a simple multi-page site: a responsive index page linking to two separate resume (“CV”) pages. I practiced HTML structure, semantic elements, creating navigation, using Bootstrap for responsive designs, and styling with custom CSS.
-Project Structure
+<img width="1068" height="686" alt="Resume Page" src="https://github.com/user-attachments/assets/079cd515-4803-463f-baf0-2936fff60132" />
+
+---
+
+## Project Structure
+
 /discovery_piscine/rush
+
 │
 ├── auteur
 ├── rush.html            # Index (home) page
@@ -13,7 +18,10 @@ Project Structure
 ├── resume1.html         # First resume
 └── resume2.html         # Second resume
 
-Part 1: The Index Page (rush.html)
+
+## Part 1: The Index Page 
+
+See the "rush.html" file.
 Purpose: Visitors pick between the two resumes.
 Features:
 Responsive design with Bootstrap 4.
@@ -21,9 +29,15 @@ Big clickable sections with custom hover effect.
 Stylish background image.
 
 
+
+<img width="850" height="397" alt="Website page 1" src="https://github.com/user-attachments/assets/e6057cef-6143-4ac7-b3f2-0e463c3eb999" />
+
+
 [Screenshot #1: Homepage]
 
 Sample Code (Partial):
+
+```
 xml
 <!DOCTYPE html>
 <html lang="en">
@@ -57,8 +71,11 @@ xml
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+```
 
 Custom Style (styles.css snippet):
+
+```
 css
 body {
   font-family: Arial, sans-serif;
@@ -110,28 +127,36 @@ xml
   <p>Brief introduction: ...</p>
 </section>
 <!-- Professional Experience and Contact sections follow -->
+```
 
 Responsive Design & Navigation
-I used Bootstrap's grid to ensure:
-Layout adapts to all screen sizes.
-Navbar collapses into a hamburger menu on mobile.
-Navbar & Section Styles (Inline CSS):
+
+- I used Bootstrap's grid to ensure:
+- Layout adapts to all screen sizes.
+- Navbar collapses into a hamburger menu on mobile.
+- Navbar & Section Styles (Inline CSS):
+
+```
 css
 body { padding-top: 56px; }
 .navbar { position: fixed; top: 0; width: 100%; z-index: 1000; }
 section { padding: 60px 20px; }
 #personal-info p { text-align: justify; }
-
+```
 
 [Screenshot #3: Mobile Menu]
 
 Final Touch: The auteur File
-Ensures authorship:
-text
+- Ensures authorship:
+- text
+
 dinicuta
 bakoca
 
-What I Learned
+---
+
+## What I Learned
+
 Basics of structuring HTML files and linking CSS/JS dependencies.
 Making web layouts responsive with Bootstrap and grids.
 Creating and styling navigation bars, sections, and buttons.
